@@ -137,7 +137,7 @@ Deployment may fail due to insufficient balance(s). Continue? (Y/n)?
         symbol: USDC
         name: USD Coin
         addressOrDenom: "0x9...6F"
-        collateralAddressOrDenom: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+        collateralAddressOrDenom: "0x8...13"
         connections:
           - token: ethereum|scroll|0xA...0d
       - chainName: scroll
@@ -151,8 +151,9 @@ Deployment may fail due to insufficient balance(s). Continue? (Y/n)?
 ```
 
 ⛽️ Gas Usage Statistics
-        - Gas required for warp deploy on base: 0.000041281779179263 ETH
-        - Gas required for warp deploy on scroll: 0.000307075270094679 ETH
+
+- Gas required for warp deploy on base: 0.000041281779179263 ETH
+- Gas required for warp deploy on scroll: 0.000307075270094679 ETH
 
 ### Copy the example result from the output on your screen, or alternatively, run:
 ```bash
