@@ -36,7 +36,7 @@ mkdir ./configs
 nano ./configs/warp-route-deployment.yaml
 ```
 
-## Add this code to the file and edit in your wallet address
+## Add this code to the file and edit in chains and your wallet address:
 ```ini
 "insert_chain_1_here":
     interchainSecurityModule:
@@ -155,7 +155,7 @@ Deployment may fail due to insufficient balance(s). Continue? (Y/n)?
 - Gas required for warp deploy on base: 0.000041281779179263 ETH
 - Gas required for warp deploy on scroll: 0.000307075270094679 ETH
 
-### Copy the example result from the output on your screen, or alternatively, run:
+### Copy the result from the output on your screen, or alternatively, run:
 ```bash
 nano $HOME/.hyperlane/deployments/warp_routes/<enter_your_bridged_token_here>/<your_collateral_chain>-<your_synthetic_chain>-config.yaml # e.g. nano $HOME/.hyperlane/deployments/warp_routes/USDC/base-scroll-config.yaml
 ```
